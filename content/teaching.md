@@ -1,17 +1,27 @@
 ---
 title: Teaching
-description: Teaching interests in technology strategy and the digital economy.
+description: Teaching experience in AI, analytics, and databases.
 hideMeta: true
 disableAnchoredHeadings: true
 ---
 
-My teaching interests connect technology strategy with the practical choices
-managers face as AI and digital systems evolve.
+## AI, Business and Society (OIDD 2550)
 
-## Areas of interest
+**Teaching Assistant, Professor Prasanna Tambe**<br>
+2023, 2024, and 2025
 
-- Technology strategy
-- Economics of digital markets
-- AI in business and society
+- Guest lecture on product prototyping with AI coding tools, 2024 and 2025
+- Guest lecture on fine-tuning an LLM to create a teaching assistant chatbot,
+  2023
 
-Course details and teaching materials will be added as they become available.
+## Analytics in VBA (OIDD 1050)
+
+**Teaching Assistant, Professor Lorin Hitt**<br>
+2022
+
+## Database for Analytics (OIDD 1050)
+
+**Teaching Assistant, Professor Lorin Hitt**<br>
+2022
+
+- Guest lecture on the history of databases

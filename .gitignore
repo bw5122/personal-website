@@ -7,3 +7,4 @@ node_modules
 public/DSCF1255_(2).jpg
 resources/_gen
 .hugo_build.lock
+tmp/

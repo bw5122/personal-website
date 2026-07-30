@@ -5,11 +5,11 @@ hideMeta: true
 disableAnchoredHeadings: true
 ---
 
-I welcome conversations about technology strategy, digital markets, and the
-organizational implications of generative AI.
+I welcome conversations about technological adaptation, digital innovation,
+AI, and technology entrepreneurship.
 
 **Email**<br>
-[zwangcj@wharton.upenn.edu](mailto:zwangcj@wharton.upenn.edu)
+[zwangcj@upenn.edu](mailto:zwangcj@upenn.edu)
 
 **Affiliation**<br>
 Operations, Information and Decisions<br>

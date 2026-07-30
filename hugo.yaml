@@ -40,16 +40,18 @@ params:
   env: production
   author: Zhiwei (Berry) Wang
   description: >-
-    Zhiwei (Berry) Wang is a doctoral candidate at the Wharton School studying
-    the economics of IT, technology strategy, and generative AI.
+    Zhiwei (Berry) Wang is a PhD candidate at the Wharton School studying
+    technological adaptation, digital innovation, AI, and entrepreneurship.
   keywords:
-    - economics of IT
+    - technological adaptation
+    - digital innovation
     - technology strategy
-    - generative AI
+    - artificial intelligence
+    - entrepreneurship
     - Wharton
   images:
     - /og.png
-  defaultTheme: auto
+  defaultTheme: light
   disableThemeToggle: false
   disableSpecial1stPost: true
   ShowBreadCrumbs: false
@@ -62,8 +64,8 @@ params:
     enabled: true
     title: Zhiwei (Berry) Wang
     subtitle: >-
-      Doctoral Candidate at the Wharton School · Economics of IT ·
-      Technology Strategy · Generative AI
+      PhD Candidate in Operations, Information and Decisions at the Wharton
+      School · Technology Strategy · Digital Innovation · AI
     imageUrl: /images/profile.jpg
     imageTitle: Portrait of Zhiwei (Berry) Wang
     imageWidth: 180
@@ -71,13 +73,13 @@ params:
     buttons:
       - name: Research
         url: /research/
-      - name: CV
-        url: /cv/
+      - name: CV (PDF)
+        url: /cv.pdf
 
   socialIcons:
     - name: email
       title: Email Berry Wang
-      url: mailto:zwangcj@wharton.upenn.edu
+      url: mailto:zwangcj@upenn.edu
     - name: linkedin
       title: LinkedIn profile
       url: https://www.linkedin.com/in/zhiwei-berry-wang-2b529a13a
@@ -90,8 +92,8 @@ params:
 
   assets:
     disableHLJS: true
-    theme_color: "#1d1e20"
-    msapplication_TileColor: "#1d1e20"
+    theme_color: "#ffffff"
+    msapplication_TileColor: "#ffffff"
 
 markup:
   goldmark:

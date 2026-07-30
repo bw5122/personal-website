@@ -1,45 +1,57 @@
 ---
 title: Research
-description: Research on how digital technologies shape firm competition.
+description: Working papers on technological adaptation, open source, AI, and technology entrepreneurship.
 hideMeta: true
 disableAnchoredHeadings: true
 ---
 
-My research sits at the intersection of information systems, strategy, and the
-economics of innovation. I use large-scale archival data and firm-level
-technology measures to understand why organizations differ in their ability to
-adapt to technological change.
+My research examines how firms adapt to technological change, how technology
+strategy shapes competition, and how talent and geography influence technology
+entrepreneurship.
 
 ---
 
-## Strategic Openness of the Innovation Portfolio
+## Working papers
 
-*Funded research · Mack Institute for Innovation Management · 2025*
+### Legacy IT, Firm Value, and the Cost of Technological Adaptation
 
-How do firms decide what to reveal and what to protect across patents, academic
-publications, and open-source code? This project studies how those choices
-change with R&D strategy, market conditions, policy pressure, and the rise of
-artificial intelligence.
+With Prasanna Tambe
 
-[Project overview](https://mackinstitute.wharton.upenn.edu/2025/strategic-openness-of-the-innovation-portfolio/) ↗
+### Open to Build, Close to Capture: Startups, Established Firms, and the Dynamics of Open-Source Licensing in the Global Database Software Industry
+
+With Rahul Kapoor
+
+Selected presentations: Open and User Innovation Conference (2026), Strategy
+Science Conference (2026), Wharton Innovation Doctoral Symposium (2026), and
+Conference on Information Systems and Technology (2025).
+
+### Deep Capital for Deep Learning
+
+With Daniel Rock and Prasanna Tambe
+
+*Best Student Paper, Workshop on Information Systems and Economics, 2021*
+
+Selected presentations: AI in Management Conference (2023), NBER Economics of
+AI Conference (2022), Conference on Information Systems and Technology (2022),
+and Workshop on Information Systems and Economics (2021).
+
+### Why Geography Binds Small Startups: Talent Diffusion and the Lifecycle of Regional Advantage
+
+With Paul Hamilton, David Hsu, and Prasanna Tambe
+
+Selected presentations: NBER Place-Based Policies and Entrepreneurship
+Conference (2026), Workshop on Information Systems and Economics (2025), and
+Academy of Management (2025).
+
+### The Geography of US Tech Startup Labor Market
+
+With Paul Hamilton, David Hsu, and Prasanna Tambe
 
 ---
 
-## Legacy Systems in the Era of Generative AI
+## Research support and awards
 
-*Work in progress*
-
-How do accumulated IT systems shape firm value, organizational adaptability,
-and the adoption of generative AI? This work examines why the same technological
-shift can create an advantage for some firms while constraining others.
-
----
-
-## The Talent Landscape
-
-*With David Hsu and Paul Hamilton · Academy of Management · 2025*
-
-Large-scale evidence on how talent relocates, concentrates, and diffuses as new
-technologies mature.
-
-[Conference abstract](https://aom2025.eventscribe.net/ajaxcalls/PresentationInfo.asp?PresentationID=1638880) ↗
+- Wharton Mack Institute Research Grant, 2026
+- Wharton Mack Institute Research Grant, 2025
+- Wharton AI & Analytics Research Grant, 2025
+- Best Student Paper, Workshop on Information Systems and Economics, 2021

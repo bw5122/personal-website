@@ -20,3 +20,24 @@
 .post-content h2 {
   margin-top: 2rem;
 }
+
+.post-content h3 {
+  margin-top: 1.75rem;
+  margin-bottom: 0.35rem;
+  font-size: 1.2rem;
+}
+
+.cv-download {
+  display: inline-block;
+  margin: 0.25rem 0 0.75rem;
+  padding: 0.65rem 1rem;
+  border-radius: var(--radius);
+  background: var(--primary);
+  color: var(--theme);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.cv-download:hover {
+  opacity: 0.82;
+}
