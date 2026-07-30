@@ -2,7 +2,5 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "hugo",
   "buildCommand": "hugo --gc --minify --destination dist --baseURL \"https://${VERCEL_PROJECT_PRODUCTION_URL}\"",
-  "outputDirectory": "dist",
-  "cleanUrls": true,
-  "trailingSlash": false
+  "outputDirectory": "dist"
 }
