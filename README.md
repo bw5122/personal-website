@@ -9,7 +9,6 @@ deployment on Vercel.
 The site requires Hugo Extended 0.146.0 or newer.
 
 ```sh
-git submodule update --init --recursive
 hugo server
 ```
 
