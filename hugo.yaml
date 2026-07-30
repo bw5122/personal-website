@@ -1,0 +1,101 @@
+baseURL: "http://localhost:1313/"
+locale: en-US
+title: Zhiwei (Berry) Wang
+theme: PaperMod
+enableRobotsTXT: true
+enableEmoji: true
+publishDir: dist
+
+pagination:
+  pagerSize: 10
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: research
+      name: Research
+      url: /research/
+      weight: 20
+    - identifier: cv
+      name: CV
+      url: /cv/
+      weight: 30
+    - identifier: teaching
+      name: Teaching
+      url: /teaching/
+      weight: 40
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 50
+
+params:
+  env: production
+  author: Zhiwei (Berry) Wang
+  description: >-
+    Zhiwei (Berry) Wang is a doctoral candidate at the Wharton School studying
+    the economics of IT, technology strategy, and generative AI.
+  keywords:
+    - economics of IT
+    - technology strategy
+    - generative AI
+    - Wharton
+  images:
+    - /og.png
+  defaultTheme: auto
+  disableThemeToggle: false
+  disableSpecial1stPost: true
+  ShowBreadCrumbs: false
+  ShowPostNavLinks: false
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowToc: false
+
+  profileMode:
+    enabled: true
+    title: Zhiwei (Berry) Wang
+    subtitle: >-
+      Doctoral Candidate at the Wharton School · Economics of IT ·
+      Technology Strategy · Generative AI
+    imageUrl: /images/profile.jpg
+    imageTitle: Portrait of Zhiwei (Berry) Wang
+    imageWidth: 180
+    imageHeight: 180
+    buttons:
+      - name: Research
+        url: /research/
+      - name: CV
+        url: /cv/
+
+  socialIcons:
+    - name: email
+      title: Email Berry Wang
+      url: mailto:zwangcj@wharton.upenn.edu
+    - name: linkedin
+      title: LinkedIn profile
+      url: https://www.linkedin.com/in/zhiwei-berry-wang-2b529a13a
+    - name: website
+      title: Wharton profile
+      url: https://oid.wharton.upenn.edu/profile/zwangcj/
+
+  label:
+    text: Zhiwei (Berry) Wang
+
+  assets:
+    disableHLJS: true
+    theme_color: "#1d1e20"
+    msapplication_TileColor: "#1d1e20"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false

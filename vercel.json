@@ -1,5 +1,9 @@
 {
-  "framework": "astro",
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "hugo",
+  "installCommand": "git submodule update --init --recursive",
+  "buildCommand": "hugo --gc --minify --baseURL \"https://${VERCEL_PROJECT_PRODUCTION_URL}\"",
+  "outputDirectory": "dist",
   "cleanUrls": true,
   "trailingSlash": false
 }

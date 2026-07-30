@@ -1,7 +1,9 @@
-node_modules
 dist
-.astro
 .vercel
 .DS_Store
 *.log
+node_modules
+.astro
 public/DSCF1255_(2).jpg
+resources/_gen
+.hugo_build.lock

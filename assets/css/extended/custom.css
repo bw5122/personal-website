@@ -1,0 +1,22 @@
+.profile img {
+  object-fit: cover;
+  object-position: 50% 16%;
+  box-shadow: 0 0 0 1px var(--border);
+}
+
+.profile .profile_inner {
+  max-width: 680px;
+}
+
+.profile .profile_inner > span {
+  max-width: 620px;
+  line-height: 1.65;
+}
+
+.post-content hr {
+  margin-block: 2.5rem;
+}
+
+.post-content h2 {
+  margin-top: 2rem;
+}

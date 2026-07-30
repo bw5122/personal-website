@@ -1,26 +1,34 @@
 # Zhiwei (Berry) Wang — Academic Website
 
-A fast, static academic website built with Astro and configured for deployment on Vercel.
+A fast, static academic website built with Hugo and the official
+[PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme, configured for
+deployment on Vercel.
 
 ## Local development
 
+The site requires Hugo Extended 0.146.0 or newer.
+
 ```sh
-npm install
-npm run dev
+git submodule update --init --recursive
+hugo server
 ```
 
 ## Production build
 
 ```sh
-npm run build
+hugo --gc --minify
 ```
 
 ## Deploy
 
-Import the GitHub repository into Vercel. Vercel detects Astro automatically and deploys every push to the production branch, while pull requests receive preview deployments.
+Import the GitHub repository into Vercel. Vercel detects Hugo automatically and
+deploys every push to the production branch, while pull requests receive preview
+deployments.
 
 ## Content updates
 
-The homepage content lives in `src/pages/index.astro`, and the visual styling lives in `src/styles/global.css`.
+Site-wide settings live in `hugo.yaml`. Page content lives in `content/`, and
+the only small theme adjustment is in `assets/css/extended/custom.css`.
 
-To publish the CV, add it as `public/cv.pdf`, then replace the current “Request CV” link with `/cv.pdf`.
+To publish the CV, add it as `static/cv.pdf`, then replace the email link in
+`content/cv.md` with `/cv.pdf`.
