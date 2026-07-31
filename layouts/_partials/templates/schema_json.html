@@ -1,0 +1,44 @@
+{{- if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ site.Title }},
+  "alternateName": "Berry Wang",
+  "url": {{ site.Home.Permalink }},
+  "image": {{ "/images/profile.jpg" | absURL }},
+  "description": {{ site.Params.description | plainify | truncate 180 | safeHTML }},
+  "jobTitle": "Doctoral Candidate",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "The Wharton School, University of Pennsylvania",
+    "url": "https://www.wharton.upenn.edu/"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/zhiwei-berry-wang-2b529a13a",
+    "https://oid.wharton.upenn.edu/profile/zwangcj/"
+  ]
+}
+</script>
+{{- else if .IsPage }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ .Title | plainify }},
+  "description": {{ .Summary | plainify }},
+  "url": {{ .Permalink | safeHTML }},
+  "inLanguage": "en-US",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": {{ site.Title }},
+    "url": {{ site.Home.Permalink }}
+  },
+  "about": {
+    "@type": "Person",
+    "name": {{ site.Title }},
+    "url": {{ site.Home.Permalink }}
+  }
+}
+</script>
+{{- end }}

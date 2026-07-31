@@ -2,6 +2,9 @@
 title: Research
 hideMeta: true
 disableAnchoredHeadings: true
+build:
+  render: never
+  list: never
 ---
 
 ## Working papers

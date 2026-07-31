@@ -2,5 +2,40 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "hugo",
   "buildCommand": "hugo --gc --minify --destination dist --baseURL \"https://berrywang.com\"",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/research/:path*",
+      "destination": "https://berrywang.com/#research",
+      "permanent": true
+    },
+    {
+      "source": "/contact/:path*",
+      "destination": "https://berrywang.com/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.berrywang.com"
+        }
+      ],
+      "destination": "https://berrywang.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "personal-website-rose-phi-98.vercel.app"
+        }
+      ],
+      "destination": "https://berrywang.com/:path*",
+      "permanent": true
+    }
+  ]
 }

@@ -6,6 +6,11 @@ enableRobotsTXT: true
 enableEmoji: true
 publishDir: dist
 
+disableKinds:
+  - taxonomy
+  - term
+  - rss
+
 pagination:
   pagerSize: 10
 
@@ -86,9 +91,20 @@ params:
     text: Zhiwei (Berry) Wang
 
   assets:
+    favicon: /favicon.ico
+    favicon16x16: /favicon-16x16.png
+    favicon32x32: /favicon-32x32.png
+    apple_touch_icon: /apple-touch-icon.png
+    safari_pinned_tab: /safari-pinned-tab.svg
     disableHLJS: true
     theme_color: "#ffffff"
     msapplication_TileColor: "#ffffff"
+
+  schema:
+    publisherType: Person
+    sameAs:
+      - https://www.linkedin.com/in/zhiwei-berry-wang-2b529a13a
+      - https://oid.wharton.upenn.edu/profile/zwangcj/
 
 markup:
   goldmark:

@@ -3,6 +3,9 @@ title: Contact
 description: Contact Zhiwei (Berry) Wang.
 hideMeta: true
 disableAnchoredHeadings: true
+build:
+  render: never
+  list: never
 ---
 
 I welcome conversations about technological adaptation, digital innovation,

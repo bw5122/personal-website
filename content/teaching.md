@@ -1,5 +1,7 @@
 ---
 title: Teaching
+summary: Teaching experience in artificial intelligence, analytics, and databases at the Wharton School.
+lastmod: 2026-07-30
 hideMeta: true
 disableAnchoredHeadings: true
 ---
