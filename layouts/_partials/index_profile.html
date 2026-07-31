@@ -9,12 +9,14 @@
     </div>
 
     <aside class="home-portrait-panel">
-      <img
-        class="home-portrait"
-        src="{{ .imageUrl | relURL }}"
-        alt="{{ .imageTitle | default "Portrait of Zhiwei (Berry) Wang" }}"
-        title="{{ .imageTitle }}"
-      >
+      <div class="home-portrait-frame">
+        <img
+          class="home-portrait"
+          src="{{ .imageUrl | relURL }}"
+          alt="{{ .imageTitle | default "Portrait of Zhiwei (Berry) Wang" }}"
+          title="{{ .imageTitle }}"
+        >
+      </div>
       <div class="home-details">
         <a class="home-email" href="mailto:zwangcj@upenn.edu">zwangcj@upenn.edu</a>
         <div class="home-profile-links">

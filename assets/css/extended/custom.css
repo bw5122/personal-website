@@ -71,14 +71,22 @@ body.list:has(.home-profile) .logo > a {
   justify-self: end;
 }
 
+.home-portrait-frame {
+  width: 100%;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 7px;
+  box-shadow: 0 8px 28px rgb(0 0 0 / 12%);
+}
+
 .home-portrait {
   display: block;
   width: 100%;
-  aspect-ratio: 1;
+  height: 100%;
   object-fit: cover;
-  object-position: 50% 18%;
-  border-radius: 7px;
-  box-shadow: 0 8px 28px rgb(0 0 0 / 12%);
+  object-position: 50% 14%;
+  transform: scale(1.25);
+  transform-origin: 50% 25%;
 }
 
 .home-details {
