@@ -113,10 +113,10 @@ body.list:has(.home-profile) .logo > a {
 
 .home-research {
   max-width: 760px;
-  margin-top: clamp(2.5rem, 5vw, 3.5rem);
+  margin-top: clamp(1.5rem, 3vw, 2.25rem);
   margin-right: auto;
   margin-left: auto;
-  padding-top: clamp(1.75rem, 3.5vw, 2.5rem);
+  padding-top: clamp(1.25rem, 2.5vw, 1.75rem);
   border-top: 1px solid var(--border);
   scroll-margin-top: 1.5rem;
 }
