@@ -15,7 +15,7 @@
 }
 
 .main:has(.home-profile) {
-  max-width: 1260px;
+  max-width: 1140px;
 }
 
 body.list:has(.home-profile) {
@@ -23,7 +23,7 @@ body.list:has(.home-profile) {
 }
 
 body.list:has(.home-profile) .header-nav {
-  max-width: 1260px;
+  max-width: 1140px;
 }
 
 body.list:has(.home-profile) .logo > a {
@@ -49,13 +49,13 @@ body.list:has(.home-profile) .logo > a {
 
 .home-profile-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.45fr) minmax(320px, 0.8fr);
-  gap: clamp(2.75rem, 6vw, 6.5rem);
+  grid-template-columns: minmax(0, 1.25fr) minmax(340px, 0.8fr);
+  gap: clamp(2.5rem, 4.5vw, 4.5rem);
   align-items: start;
 }
 
 .home-bio {
-  max-width: 760px;
+  max-width: 640px;
   color: var(--content);
   font-size: clamp(1.1rem, 1.55vw, 1.38rem);
   line-height: 1.72;
@@ -67,7 +67,7 @@ body.list:has(.home-profile) .logo > a {
 
 .home-portrait-panel {
   width: 100%;
-  max-width: 440px;
+  max-width: 420px;
   justify-self: end;
 }
 
@@ -112,7 +112,10 @@ body.list:has(.home-profile) .logo > a {
 }
 
 .home-research {
+  max-width: 840px;
   margin-top: clamp(4rem, 8vw, 7rem);
+  margin-right: auto;
+  margin-left: auto;
   padding-top: clamp(2.75rem, 5vw, 4.5rem);
   border-top: 1px solid var(--border);
 }
