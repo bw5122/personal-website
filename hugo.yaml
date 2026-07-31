@@ -53,6 +53,7 @@ params:
     - /og.png
   defaultTheme: light
   disableThemeToggle: false
+  hideFooter: true
   disableSpecial1stPost: true
   ShowBreadCrumbs: false
   ShowPostNavLinks: false
