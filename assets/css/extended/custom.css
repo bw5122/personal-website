@@ -86,7 +86,7 @@ body.list:has(.home-profile) .logo > a {
   object-fit: cover;
   object-position: 50% 14%;
   transform: scale(1.7);
-  transform-origin: 40% 16%;
+  transform-origin: 47% 16%;
 }
 
 .home-details {
