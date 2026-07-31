@@ -70,11 +70,6 @@ params:
     imageTitle: Portrait of Zhiwei (Berry) Wang
     imageWidth: 180
     imageHeight: 180
-    buttons:
-      - name: Research
-        url: "#research"
-      - name: CV (PDF)
-        url: /cv.pdf
 
   socialIcons:
     - name: email

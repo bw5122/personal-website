@@ -65,12 +65,6 @@ body.list:has(.home-profile) .logo > a {
   margin: 0;
 }
 
-.home-actions {
-  justify-content: flex-start;
-  max-width: none;
-  margin-top: 2rem;
-}
-
 .home-portrait-panel {
   width: 100%;
   max-width: 440px;

@@ -8,16 +8,6 @@
   <div class="home-profile-grid">
     <div class="home-bio">
       <p>{{ .subtitle | markdownify }}</p>
-
-      {{- with .buttons }}
-      <div class="buttons home-actions">
-        {{- range . }}
-        <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
-          <span class="button-inner">{{ .name }}</span>
-        </a>
-        {{- end }}
-      </div>
-      {{- end }}
     </div>
 
     <aside class="home-portrait-panel">
