@@ -65,6 +65,10 @@ body.list:has(.home-profile) .logo > a {
   margin: 0;
 }
 
+.home-bio .home-job-market {
+  margin-top: 1.25rem;
+}
+
 .home-portrait-panel {
   width: 100%;
   max-width: 320px;
