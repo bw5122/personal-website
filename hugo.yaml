@@ -31,11 +31,6 @@ menu:
       name: Teaching
       url: /teaching/
       weight: 40
-    - identifier: contact
-      name: Contact
-      url: /contact/
-      weight: 50
-
 params:
   env: production
   author: Zhiwei (Berry) Wang
