@@ -37,5 +37,14 @@
       </div>
     </aside>
   </div>
+
+  {{- with site.GetPage "/research" }}
+  <section class="home-research" id="research">
+    <h2>Research</h2>
+    <div class="post-content home-research-content">
+      {{ .Content }}
+    </div>
+  </section>
+  {{- end }}
   {{- end }}
 </div>

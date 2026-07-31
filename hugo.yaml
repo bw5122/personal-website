@@ -72,7 +72,7 @@ params:
     imageHeight: 180
     buttons:
       - name: Research
-        url: /research/
+        url: "#research"
       - name: CV (PDF)
         url: /cv.pdf
 
