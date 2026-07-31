@@ -1,0 +1,41 @@
+<div class="home-profile">
+  {{- with site.Params.profileMode }}
+  <h1 class="home-name">
+    <strong>Zhiwei</strong>
+    <span>(Berry) Wang</span>
+  </h1>
+
+  <div class="home-profile-grid">
+    <div class="home-bio">
+      <p>{{ .subtitle | markdownify }}</p>
+
+      {{- with .buttons }}
+      <div class="buttons home-actions">
+        {{- range . }}
+        <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
+          <span class="button-inner">{{ .name }}</span>
+        </a>
+        {{- end }}
+      </div>
+      {{- end }}
+    </div>
+
+    <aside class="home-portrait-panel">
+      <img
+        class="home-portrait"
+        src="{{ .imageUrl | relURL }}"
+        alt="{{ .imageTitle | default "Portrait of Zhiwei (Berry) Wang" }}"
+        title="{{ .imageTitle }}"
+      >
+      <div class="home-details">
+        <a class="home-email" href="mailto:zwangcj@upenn.edu">zwangcj@upenn.edu</a>
+        <div class="home-profile-links">
+          <a href="https://www.linkedin.com/in/zhiwei-berry-wang-2b529a13a" target="_blank" rel="noopener">LinkedIn</a>
+          <span aria-hidden="true">·</span>
+          <a href="https://oid.wharton.upenn.edu/profile/zwangcj/" target="_blank" rel="noopener">Wharton profile</a>
+        </div>
+      </div>
+    </aside>
+  </div>
+  {{- end }}
+</div>
