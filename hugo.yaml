@@ -59,8 +59,13 @@ params:
     enabled: true
     title: Zhiwei (Berry) Wang
     subtitle: >-
-      PhD Candidate in Operations, Information and Decisions at the Wharton
-      School · Technology Strategy · Digital Innovation · AI
+      I am a doctoral candidate in the Operations, Information and Decisions
+      Department at the Wharton School of the University of Pennsylvania. My
+      research examines how firms create and capture value from digital
+      technologies, particularly AI. I pursue this question through two related
+      streams: how adopting firms integrate AI with their existing digital
+      systems and capabilities, and how enterprise technology providers
+      commercialize digital innovation.
     imageUrl: /images/profile.jpg
     imageTitle: Portrait of Zhiwei (Berry) Wang
     imageWidth: 180

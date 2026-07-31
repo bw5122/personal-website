@@ -11,6 +11,7 @@
 .profile .profile_inner > span {
   max-width: 620px;
   line-height: 1.65;
+  text-align: left;
 }
 
 .post-content hr {
