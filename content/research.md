@@ -1,14 +1,7 @@
 ---
 title: Research
-description: Working papers on technological adaptation, open source, AI, and technology entrepreneurship.
 hideMeta: true
 disableAnchoredHeadings: true
----
-
-My research examines how firms adapt to technological change, how technology
-strategy shapes competition, and how talent and geography influence technology
-entrepreneurship.
-
 ---
 
 ## Working papers
