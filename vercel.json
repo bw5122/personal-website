@@ -6,35 +6,45 @@
   "trailingSlash": true,
   "redirects": [
     {
-      "source": "/research/:path*",
+      "source": "/research",
       "destination": "https://berrywang.com/#research",
       "permanent": true
     },
     {
-      "source": "/contact/:path*",
+      "source": "/research/",
+      "destination": "https://berrywang.com/#research",
+      "permanent": true
+    },
+    {
+      "source": "/contact",
       "destination": "https://berrywang.com/",
       "permanent": true
     },
     {
-      "source": "/:path*",
+      "source": "/contact/",
+      "destination": "https://berrywang.com/",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
       "has": [
         {
           "type": "host",
           "value": "www.berrywang.com"
         }
       ],
-      "destination": "https://berrywang.com/:path*",
+      "destination": "https://berrywang.com/$1",
       "permanent": true
     },
     {
-      "source": "/:path*",
+      "source": "/(.*)",
       "has": [
         {
           "type": "host",
           "value": "personal-website-rose-phi-98.vercel.app"
         }
       ],
-      "destination": "https://berrywang.com/:path*",
+      "destination": "https://berrywang.com/$1",
       "permanent": true
     }
   ]
