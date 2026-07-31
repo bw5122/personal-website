@@ -1,6 +1,5 @@
 ---
 title: Teaching
-description: Teaching experience in AI, analytics, and databases.
 hideMeta: true
 disableAnchoredHeadings: true
 ---
