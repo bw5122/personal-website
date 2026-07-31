@@ -194,23 +194,6 @@ body.list:has(.home-profile) .logo > a {
   font-size: 1.2rem;
 }
 
-.cv-download {
-  display: inline-block;
-  margin: 0.25rem 0 0.5rem;
-  padding: 0.55rem 1.1rem;
-  border: 1px solid var(--primary);
-  border-radius: 999px;
-  background: transparent;
-  color: var(--primary);
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.cv-download:hover {
-  background: var(--primary);
-  color: var(--theme);
-}
-
 .cv-page {
   text-align: center;
 }
