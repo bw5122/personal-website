@@ -38,13 +38,9 @@ body.list:has(.home-profile) .logo > a {
   margin: 0 0 clamp(1.75rem, 3vw, 2.5rem);
   color: var(--primary);
   font-size: clamp(2.25rem, 3.5vw, 2.5rem);
-  font-weight: 350;
+  font-weight: 400;
   letter-spacing: -0.045em;
   line-height: 1.04;
-}
-
-.home-name strong {
-  font-weight: 780;
 }
 
 .home-profile-grid {
@@ -122,6 +118,7 @@ body.list:has(.home-profile) .logo > a {
   margin-left: auto;
   padding-top: clamp(2rem, 4vw, 3rem);
   border-top: 1px solid var(--border);
+  scroll-margin-top: 1.5rem;
 }
 
 .home-research > h2 {
