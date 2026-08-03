@@ -6,7 +6,7 @@
   "name": {{ site.Title }},
   "alternateName": "Berry Wang",
   "url": {{ site.Home.Permalink }},
-  "image": {{ "/images/profile.jpg" | absURL }},
+  "image": {{ site.Params.profileMode.imageUrl | absURL }},
   "description": {{ site.Params.description | plainify | truncate 180 | safeHTML }},
   "jobTitle": "Doctoral Candidate",
   "affiliation": {
