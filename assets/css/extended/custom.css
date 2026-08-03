@@ -202,6 +202,34 @@ body.list:has(.home-profile) .logo > a {
   font-size: 1.2rem;
 }
 
+.post-single:has(.teaching-page-marker) .post-title {
+  font-size: clamp(1.85rem, 3vw, 2.1rem);
+}
+
+.post-content:has(.teaching-page-marker) {
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+
+.post-content:has(.teaching-page-marker) h2 {
+  margin: 1.75rem 0 0.5rem;
+  font-size: 1.22rem;
+  line-height: 1.4;
+}
+
+.post-content:has(.teaching-page-marker) h2:first-of-type {
+  margin-top: 0;
+}
+
+.post-content:has(.teaching-page-marker) p {
+  margin: 0.35rem 0 0.85rem;
+}
+
+.post-content:has(.teaching-page-marker) ul {
+  margin-top: 0.35rem;
+  margin-bottom: 1rem;
+}
+
 .cv-page {
   text-align: center;
 }

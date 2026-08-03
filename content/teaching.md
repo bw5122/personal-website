@@ -6,6 +6,8 @@ hideMeta: true
 disableAnchoredHeadings: true
 ---
 
+<span class="teaching-page-marker" hidden></span>
+
 ## AI, Business and Society (OIDD 2550)
 
 **Teaching Assistant, Professor Prasanna Tambe**<br>
