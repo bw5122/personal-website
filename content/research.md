@@ -17,6 +17,8 @@ Zhiwei (Berry) Wang and Prasanna Tambe
 
 Zhiwei (Berry) Wang and Rahul Kapoor
 
+*Submitted to Management Science*
+
 ### Deep Capital for Deep Learning
 
 Zhiwei (Berry) Wang, Daniel Rock, and Prasanna Tambe
