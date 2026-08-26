@@ -15,14 +15,12 @@ Zhiwei (Berry) Wang and Prasanna Tambe
 
 ### Open to Build, Close to Capture: Startups, Established Firms, and the Dynamics of Open-Source Licensing in the Global Database Software Industry
 
-Zhiwei (Berry) Wang and Rahul Kapoor
-
+Zhiwei (Berry) Wang and Rahul Kapoor<br>
 *Submitted to Management Science*
 
 ### Deep Capital for Deep Learning
 
-Zhiwei (Berry) Wang, Daniel Rock, and Prasanna Tambe
-
+Zhiwei (Berry) Wang, Daniel Rock, and Prasanna Tambe<br>
 *Best Student Paper, Workshop on Information Systems and Economics, 2021*
 
 ### Why Geography Binds Small Startups: Talent Diffusion and the Lifecycle of Regional Advantage
