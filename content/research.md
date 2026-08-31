@@ -16,7 +16,7 @@ Zhiwei (Berry) Wang and Prasanna Tambe
 ### Open to Build, Close to Capture: Startups, Established Firms, and the Dynamics of Open-Source Licensing in the Global Database Software Industry
 
 Zhiwei (Berry) Wang and Rahul Kapoor<br>
-*Under review*
+*Under review at Management Science*
 
 ### Deep Capital for Deep Learning
 
