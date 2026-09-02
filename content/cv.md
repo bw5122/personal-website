@@ -1,13 +1,13 @@
 ---
 title: CV
 summary: Curriculum vitae for Zhiwei (Berry) Wang, doctoral candidate at the Wharton School.
-lastmod: 2026-08-30
+lastmod: 2026-09-02
 hideMeta: true
 disableAnchoredHeadings: true
 ---
 
 <div class="cv-page">
-  <p class="cv-updated"><em>Last updated August 2026</em></p>
+  <p class="cv-updated"><em>Last updated September 2026</em></p>
 
   <div class="cv-preview-wrap">
     <object
