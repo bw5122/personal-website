@@ -22,7 +22,7 @@ Zhiwei (Berry) Wang and Rahul Kapoor
 Zhiwei (Berry) Wang, Daniel Rock, and Prasanna Tambe<br>
 *Best Student Paper, Workshop on Information Systems and Economics, 2021*
 
-### Why Geography Binds Small Startups: Talent Diffusion and the Lifecycle of Regional Advantage
+### The Limits of Regional Advantage: Startups and Talent Scarcity Across the Technology Lifecycle
 
 Paul Hamilton, David Hsu, Prasanna Tambe, and Zhiwei (Berry) Wang
 

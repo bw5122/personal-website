@@ -1,7 +1,7 @@
 ---
 title: CV
 summary: Curriculum vitae for Zhiwei (Berry) Wang, doctoral candidate at the Wharton School.
-lastmod: 2026-09-02
+lastmod: 2026-09-25
 hideMeta: true
 disableAnchoredHeadings: true
 ---
