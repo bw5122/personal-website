@@ -28,4 +28,5 @@ Paul Hamilton, David Hsu, Prasanna Tambe, and Zhiwei (Berry) Wang
 
 ### The Geography of US Tech Startup Labor Market
 
-Paul Hamilton, David Hsu, Prasanna Tambe, and Zhiwei (Berry) Wang
+Paul Hamilton, David Hsu, Prasanna Tambe, and Zhiwei (Berry) Wang<br>
+*Selected for inclusion in NBER Place-Based Policies and Entrepreneurship conference volume; under revision*
