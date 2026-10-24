@@ -4,8 +4,7 @@
 
   <div class="home-profile-grid">
     <div class="home-bio">
-      <p>{{ .subtitle | markdownify }}</p>
-      <p class="home-job-market"><strong><em>I am on the 2026–27 academic job market.</em></strong></p>
+      {{ .subtitle | markdownify }}
     </div>
 
     <aside class="home-portrait-panel">
@@ -28,13 +27,5 @@
     </aside>
   </div>
 
-  {{- with site.GetPage "/research" }}
-  <section class="home-research" id="research">
-    <h2>Research</h2>
-    <div class="post-content home-research-content">
-      {{ .Content }}
-    </div>
-  </section>
-  {{- end }}
   {{- end }}
 </div>

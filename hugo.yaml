@@ -24,6 +24,10 @@ menu:
       name: Home
       url: /
       weight: 10
+    - identifier: research
+      name: Research
+      url: /research/
+      weight: 20
     - identifier: cv
       name: CV
       url: /cv/
@@ -36,8 +40,9 @@ params:
   env: production
   author: Zhiwei (Berry) Wang
   description: >-
-    Zhiwei (Berry) Wang is a PhD candidate at the Wharton School studying
-    technological adaptation, digital innovation, AI, and entrepreneurship.
+    Zhiwei (Berry) Wang is a PhD candidate at the Wharton School studying how
+    firms’ existing technological resources shape their response to new
+    technologies.
   keywords:
     - technological adaptation
     - digital innovation
@@ -60,14 +65,16 @@ params:
   profileMode:
     enabled: true
     title: Zhiwei (Berry) Wang
-    subtitle: >-
-      I am a doctoral candidate in the Operations, Information and Decisions
-      Department at the Wharton School of the University of Pennsylvania. My
-      research examines how firms create and capture value from digital
-      technologies, particularly AI. I pursue this question through two related
-      streams: (1) how adopting firms integrate AI with their existing digital
-      systems and capabilities, and (2) how enterprise technology providers
-      commercialize digital innovation.
+    subtitle: |-
+      I am a PhD candidate in the Operations, Information and Decisions Department at the Wharton School of the University of Pennsylvania. I am on the 2026–2027 academic job market.
+
+      My research examines how firms’ existing technological resources shape their response to new technologies. I pursue this question in two related streams: (1) how IT-using firms integrate AI with their existing digital systems, and (2) how startups and established enterprise technology providers commercialize digital innovation differently.
+
+      In my job market paper, I develop a firm-level measure of legacy IT from workforce skills data. I find that firms with more legacy IT expanded less into generative AI after the release of ChatGPT, particularly in IT layers that need greater changes to integrate GenAI and in IT built in-house rather than supplied by vendors. Legacy IT also contributes to firm output but is not valued positively by investors, consistent with a forward-looking cost of integrating future technologies.
+
+      Going forward, I study how GenAI changes the way enterprise IT is built: as code becomes cheap to produce, how firms modernize legacy systems, decide what to build or buy, and how enterprise software vendors adapt.
+
+      I received a BEng in Computer Science and a BBA in Business Management from the Hong Kong University of Science and Technology.
     imageUrl: /images/berry-wang-profile-2026.jpg
     imageTitle: Portrait of Zhiwei (Berry) Wang
     imageWidth: 180

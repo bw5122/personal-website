@@ -2,10 +2,9 @@
 title: Research
 hideMeta: true
 disableAnchoredHeadings: true
-build:
-  render: never
-  list: never
 ---
+
+<div class="research-page-marker"></div>
 
 ## Working papers
 
@@ -26,7 +25,7 @@ Zhiwei (Berry) Wang, Daniel Rock, and Prasanna Tambe<br>
 
 Paul Hamilton, David Hsu, Prasanna Tambe, and Zhiwei (Berry) Wang
 
-### The Geography of US Tech Startup Labor Market
+### Startup Talent beyond the Hubs: Reach, Attention, and Response
 
 Paul Hamilton, David Hsu, Prasanna Tambe, and Zhiwei (Berry) Wang<br>
-*Selected for inclusion in NBER Place-Based Policies and Entrepreneurship conference volume; under revision*
+*Invited book chapter for the planned NBER conference volume: Place-based Policies and Entrepreneurship*
