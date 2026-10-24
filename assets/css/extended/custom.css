@@ -15,7 +15,7 @@
 }
 
 .main:has(.home-profile) {
-  max-width: 880px;
+  max-width: 1080px;
 }
 
 body.list:has(.home-profile) {
@@ -23,7 +23,7 @@ body.list:has(.home-profile) {
 }
 
 body.list:has(.home-profile) .header-nav {
-  max-width: 880px;
+  max-width: 1080px;
 }
 
 body.list:has(.home-profile) .logo > a {
@@ -31,11 +31,11 @@ body.list:has(.home-profile) .logo > a {
 }
 
 .home-profile {
-  padding: clamp(1rem, 2.5vw, 2.25rem) 0 2.25rem;
+  padding: clamp(0.75rem, 1.5vw, 1.25rem) 0 1.25rem;
 }
 
 .home-name {
-  margin: 0 0 clamp(1.75rem, 3vw, 2.5rem);
+  margin: 0 0 clamp(1.15rem, 2vw, 1.6rem);
   color: var(--primary);
   font-size: clamp(2.25rem, 3.5vw, 2.5rem);
   font-weight: 400;
@@ -45,20 +45,20 @@ body.list:has(.home-profile) .logo > a {
 
 .home-profile-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(270px, 0.56fr);
-  gap: clamp(1.75rem, 3.5vw, 2.75rem);
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 320px);
+  gap: clamp(2rem, 4vw, 3.25rem);
   align-items: start;
 }
 
 .home-bio {
-  max-width: 500px;
+  max-width: none;
   color: var(--content);
-  font-size: clamp(1rem, 1.3vw, 1.08rem);
-  line-height: 1.65;
+  font-size: clamp(0.98rem, 1.2vw, 1.04rem);
+  line-height: 1.52;
 }
 
 .home-bio p {
-  margin: 0 0 1.05rem;
+  margin: 0 0 0.78rem;
 }
 
 .home-bio p:last-child {
@@ -120,6 +120,10 @@ body.list:has(.home-profile) .logo > a {
 }
 
 @media (max-width: 700px) {
+  .home-profile {
+    padding-top: 1rem;
+  }
+
   .home-name {
     margin-bottom: 1.5rem;
   }
