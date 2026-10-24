@@ -6,16 +6,6 @@
   "trailingSlash": true,
   "redirects": [
     {
-      "source": "/research",
-      "destination": "https://berrywang.com/#research",
-      "permanent": true
-    },
-    {
-      "source": "/research/",
-      "destination": "https://berrywang.com/#research",
-      "permanent": true
-    },
-    {
       "source": "/contact",
       "destination": "https://berrywang.com/",
       "permanent": true
