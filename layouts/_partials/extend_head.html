@@ -1,0 +1,10 @@
+<script>
+  (() => {
+    const lightDefaultVersion = "2026-10-26";
+    if (localStorage.getItem("theme-default-version") !== lightDefaultVersion) {
+      localStorage.removeItem("pref-theme");
+      localStorage.setItem("theme-default-version", lightDefaultVersion);
+      document.documentElement.dataset.theme = "light";
+    }
+  })();
+</script>
