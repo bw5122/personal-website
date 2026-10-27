@@ -68,11 +68,9 @@ params:
     subtitle: |-
       I am a PhD candidate in the Operations, Information and Decisions Department at the Wharton School of the University of Pennsylvania. I am on the 2026–2027 academic job market.
 
-      My research examines how firms’ existing technological resources shape their response to new technologies. I pursue this question in two related streams: (1) how IT-using firms integrate AI with their existing digital systems, and (2) how startups and established enterprise technology providers commercialize digital innovation differently.
+      My research studies the enterprise IT stack, and what happens to it when a new technology like GenAI comes along. I look at this from both sides of the market: the firms that run on these systems and the vendors that build and sell them.
 
       In my job market paper, I develop a firm-level measure of legacy IT from workforce skills data. I find that firms with more legacy IT expanded less into generative AI after the release of ChatGPT, particularly in IT layers that need greater changes to integrate GenAI and in IT built in-house rather than supplied by vendors. Legacy IT also contributes to firm output but is not valued positively by investors, consistent with a forward-looking cost of integrating future technologies.
-
-      Going forward, I study how GenAI changes the way enterprise IT is built: as code becomes cheap to produce, how firms modernize legacy systems, decide what to build or buy, and how enterprise software vendors adapt.
 
       I received a BEng in Computer Science and a BBA in Business Management from the Hong Kong University of Science and Technology.
     imageUrl: /images/berry-wang-profile-2026.jpg
