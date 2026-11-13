@@ -8,7 +8,7 @@ disableAnchoredHeadings: true
 
 ## Manuscripts Under Review
 
-### Startup Talent beyond the Hubs: Reach, Attention, and Response
+### Startup Talent beyond the Hubs: Evidence from Startup Job Applications
 
 Paul Hamilton, David Hsu, Prasanna Tambe, and Zhiwei (Berry) Wang<br>
 *Under revision for the NBER Conference Volume: Place-based Policies and Entrepreneurship*
